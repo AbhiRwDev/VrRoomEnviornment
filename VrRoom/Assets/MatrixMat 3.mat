@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MatrixMat 1
+  m_Name: MatrixMat 3
   m_Shader: {fileID: -6465566751694194690, guid: dab07c9270214714e9fe601b29a4922b,
     type: 3}
   m_ValidKeywords: []
@@ -59,15 +59,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float: 17.37
+    - _Float: 240.01
     - _Float_1: 0.55
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Black: {r: 0.09175863, g: 0.1509434, b: 0.056247775, a: 1}
     - _LetterEmissionColor: {r: 2.9915612, g: 9.395353, b: 0.8420361, a: 1}
-    - _Offset: {r: 0, g: 0.11, b: 0, a: 0}
-    - _Tiling: {r: 9.3, g: 10.4, b: 0, a: 0}
+    - _Offset: {r: 0, g: 4.49, b: 0, a: 0}
+    - _Tiling: {r: 5.6, g: 38.3, b: 0, a: 0}
     - _f: {r: 31.73, g: 1.25, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5397919907538985955

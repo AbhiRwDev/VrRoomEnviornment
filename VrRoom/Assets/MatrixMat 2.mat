@@ -65,8 +65,8 @@ Material:
     - _QueueOffset: 0
     m_Colors:
     - _Black: {r: 0.09175863, g: 0.1509434, b: 0.056247775, a: 1}
-    - _LetterEmissionColor: {r: 1.2017012, g: 5.2164755, b: 0, a: 0}
-    - _Offset: {r: 0, g: -0.33, b: 0, a: 0}
+    - _LetterEmissionColor: {r: 1.2818329, g: 3.0495877, b: 0.7048576, a: 1}
+    - _Offset: {r: 0, g: -0.14, b: 0, a: 0}
     - _Tiling: {r: 13.1, g: 11.8, b: 0, a: 0}
     - _f: {r: 31.73, g: 1.25, b: 0, a: 0}
   m_BuildTextureStacks: []
