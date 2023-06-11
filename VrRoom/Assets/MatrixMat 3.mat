@@ -59,13 +59,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BrightnessUp: 0
     - _Float: 240.01
     - _Float_1: 0.55
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Black: {r: 0.09175863, g: 0.1509434, b: 0.056247775, a: 1}
-    - _LetterEmissionColor: {r: 0.3513663, g: 3.0672052, b: 0.0144679835, a: 1}
+    - _Black: {r: 0.046763733, g: 0.066037714, b: 0.035199348, a: 1}
+    - _GreenColor: {r: 0.12104154, g: 1.216786, b: 0, a: 0.98039216}
+    - _LetterEmissionColor: {r: 1.866066, g: 1.866066, b: 1.866066, a: 3268801.8}
     - _Offset: {r: 0, g: 0.63, b: 0, a: 0}
     - _Tiling: {r: 6.73, g: 22.91, b: 0, a: 0}
     - _f: {r: 31.73, g: 1.25, b: 0, a: 0}

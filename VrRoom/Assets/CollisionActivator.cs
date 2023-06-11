@@ -2,25 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CollisionActivator : MonoBehaviour
 {
-    public GameObject NextObject;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject NextObject,BrightLight;
+    
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+       
     }
     private void OnTriggerEnter(Collider other)
     {
         if(NextObject!=null)
         {
             NextObject.SetActive(true);
+            transform.parent.gameObject.SetActive(false);
+            BrightLight.SetActive(true);
+           
+           
+        }
+        else
+        {
+            Debug.Log("Exit");
+            Application.Quit();
         }
     }
 }
