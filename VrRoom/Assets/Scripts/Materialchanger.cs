@@ -10,7 +10,9 @@ public class Materialchanger : MonoBehaviour
     {
        
         intensity = 1;
+       
         col = material.GetColor("_LetterEmissionColor");
+        tempcolor = col;
         StartCoroutine(changeScene());
 
     }
@@ -25,6 +27,7 @@ public class Materialchanger : MonoBehaviour
     IEnumerator changeScene()
     {
         yield return new WaitForSeconds(5);
+        material.SetColor("_LetterEmissionColor", tempcolor);
         SceneManager.LoadScene("Room");
     }
 }
