@@ -67,7 +67,7 @@ Material:
     m_Colors:
     - _Black: {r: 0.046763733, g: 0.066037714, b: 0.035199348, a: 1}
     - _GreenColor: {r: 0.12104154, g: 1.216786, b: 0, a: 0.98039216}
-    - _LetterEmissionColor: {r: 1, g: 1, b: 1, a: 14826127}
+    - _LetterEmissionColor: {r: 3.732132, g: 3.732132, b: 3.732132, a: 5.7710207e+10}
     - _Offset: {r: 0, g: 0.63, b: 0, a: 0}
     - _Tiling: {r: 6.73, g: 22.91, b: 0, a: 0}
     - _f: {r: 31.73, g: 1.25, b: 0, a: 0}

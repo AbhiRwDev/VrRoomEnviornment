@@ -289,7 +289,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &105431382
 Transform:
   m_ObjectHideFlags: 0
@@ -298,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105431381}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 1.1, z: -2.37}
+  m_LocalPosition: {x: -0.15, y: 2.15, z: -2.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6429,7 +6429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextObject: {fileID: 1400466955}
-  BrightLight: {fileID: 1267343341}
+  BrightLight: {fileID: 1400466955}
 --- !u!1 &1209273343
 GameObject:
   m_ObjectHideFlags: 0
@@ -11485,7 +11485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextToshow: 
   typespeed: 0.1
-  NextActive: {fileID: 0}
+  NextActive: {fileID: 1267343341}
 --- !u!114 &1271499578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12462,6 +12462,10 @@ PrefabInstance:
       propertyPath: GravityModifier
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Radius
+      value: 0.23
+      objectReference: {fileID: 0}
     - target: {fileID: 20131489337305086, guid: ce816f2e6abb0504092c23ed9b970dfd,
         type: 3}
       propertyPath: m_Depth
@@ -12690,7 +12694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1848598664
 Transform:
   m_ObjectHideFlags: 0
