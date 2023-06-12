@@ -5,6 +5,7 @@ public class Materialchanger : MonoBehaviour
 {
     public float value,intensity;
     public Material material;
+    bool ChangeScene=false;
     public Color col,NewCol,tempcolor;
     private void Start()
     {
@@ -13,7 +14,7 @@ public class Materialchanger : MonoBehaviour
        
         col = material.GetColor("_LetterEmissionColor");
         tempcolor = col;
-        StartCoroutine(changeScene());
+      //  StartCoroutine(changeScene());
 
     }
     private void Update()
@@ -22,12 +23,20 @@ public class Materialchanger : MonoBehaviour
         NewCol = NewCol * intensity;
         col = Color.Lerp(col, NewCol, Time.deltaTime * value);
         material.SetColor("_LetterEmissionColor",col );
+        if(intensity>=1.09&&!ChangeScene)
+        {
+            ChangeScene = true;
+            StartCoroutine(changeScene());
+            
+        }
         
     }
     IEnumerator changeScene()
     {
-        yield return new WaitForSeconds(5);
-        material.SetColor("_LetterEmissionColor", tempcolor);
+     //  yield return new WaitForSeconds(5);
+        
         SceneManager.LoadScene("Room");
+        //material.SetColor("_LetterEmissionColor", tempcolor);
+        return null;
     }
 }
